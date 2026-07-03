@@ -16,6 +16,7 @@ const Navbar = ({ activeSection, scrollToSection }) => {
     { id: 'about', label: 'About' },
     { id: 'services', label: 'Services' },
     { id: 'gallery', label: 'Before & After' },
+    { id: "products", label: "Products" },
     { id: 'testimonials', label: 'Reviews' },
     { id: 'contact', label: 'Contact' },
   ]
