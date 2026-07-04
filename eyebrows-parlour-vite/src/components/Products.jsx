@@ -7,7 +7,6 @@ const products = [
       "https://i.pinimg.com/736x/27/09/9c/27099c8aebc28fce50ce441c2b931d1c.jpg",
     name: "Castor Oil",
     description: "Suitable for all skin types.",
-    price: "",
   },
   {
     id: 2,
@@ -15,7 +14,6 @@ const products = [
       "https://i.pinimg.com/736x/aa/63/df/aa63df887a75460d6c2e363677b41649.jpg",
     name: "Dove Scalp Serum",
     description: "Strengthens hair roots and reduces breakage.",
-    price: "",
   },
   {
     id: 3,
@@ -23,7 +21,6 @@ const products = [
       "https://i.pinimg.com/1200x/34/d7/58/34d7586f5415fbe5d8d49ec1e86dacb5.jpg",
     name: "Hair Growth Oil",
     description: "200ml intensive hair growth treatment.",
-    price: "£25.00",
   },
   {
     id: 4,
@@ -31,15 +28,13 @@ const products = [
       "https://i.pinimg.com/736x/ea/17/da/ea17da60fd532170fcfe9d5adb128bd4.jpg",
     name: "Dove Serum",
     description: "Smooth and repair damaged hair.",
-    price: "",
   },
   {
     id: 5,
     image:
-      "https://i.pinimg.com/736x/4c/42/38/4c42382d136a536986bceb0ac7db6ecd.jpg",
-    name: "Repair Spray",
-    description: "Heat protection & repair spray.",
-    price: "",
+      "https://i.pinimg.com/736x/4a/a1/80/4aa1800c14785e8af5e91ca00825b53a.jpg",
+    name: "Care kit",
+    description: "Full professional 6 months care kit.",
   },
   {
     id: 6,
@@ -47,7 +42,6 @@ const products = [
       "https://i.pinimg.com/736x/4a/31/89/4a31898c7ae01c65efc9b9c23d334ca8.jpg",
     name: "TRESemme Care Kit",
     description: "Full professional hair care bundle.",
-    price: "£49.99",
   },
 ];
 
