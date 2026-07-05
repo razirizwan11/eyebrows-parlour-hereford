@@ -2,18 +2,18 @@ import React, { useState } from 'react'
 import { MapPin, Phone, Mail, Clock, Calendar, Send, CheckCircle } from 'lucide-react'
 
 const servicesList = [
-  'Eyebrow Threading - £8',
-  'Eyebrow Tinting - £10',
-  'Lash Lift - £35',
-  'Lash Tinting - TBD',
-  'Face Threading - £25',
-  'Eyelash Extensions - £45',
-  'Facials - £50',
-  'Makeup - Starting Soon',
-  'Haircut & Styling - £35',
-  'Henna - £10',
-  'Upper Lip Threading - £6',
-  'Waxing - £6',
+  'Eyebrow Threading ',
+  'Eyebrow Tinting ',
+  'Lash Lift ',
+  'Lash Tinting ',
+  'Face Threading ',
+  'Eyelash Extensions ',
+  'Facials ',
+  'Makeup ',
+  'Haircut & Styling ',
+  'Henna ',
+  'Upper Lip Threading ',
+  'Waxing ',
 ]
 
 const Contact = () => {
@@ -32,8 +32,8 @@ const Contact = () => {
   const contactInfo = [
     { icon: MapPin, title: 'Address', content: '5 Maylord Street, Hereford HR1 2DS', href: 'https://maps.google.com/?q=5+Maylord+Street+Hereford+HR1+2DS' },
     { icon: Phone, title: 'Phone', content: '+44 7360 587313', href: 'tel:+44 7360587313' },
-    { icon: Mail, title: 'Email', content: 'saimaghazal786@gmail.com', href: 'mailto:saimaghazal786@gmail.com' },
-    { icon: Clock, title: 'Hours', content: 'Mon-Sat: 9AM-6PM | Sun: Closed', href: null },
+    { icon: Mail, title: 'Email', content: 'eyebrowsparlourhereford@gmail.com', href: 'mailto:eyebrowsparlourhereford@gmail.com' },
+    { icon: Clock, title: 'Hours', content: 'Mon-Sat: 9AM-6PM | Sun: 10AM-4PM', href: null },
   ]
 
   return (
