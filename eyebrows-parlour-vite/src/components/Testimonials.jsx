@@ -4,7 +4,7 @@ import { Star, Quote } from 'lucide-react'
 const testimonialsData = [
   { name: 'Sarah M.', rating: 5, text: 'Best eyebrow threading in Hereford! My brows have never looked better. The staff is so friendly and professional.' },
   { name: 'Emily R.', rating: 5, text: "I got a lash lift and tint and I'm obsessed. I wake up looking put together every single day. Highly recommend!" },
-  { name: 'Jessica T.', rating: 5, text: 'The facial was absolutely divine. My skin has never felt so soft and glowing. This is my new go-to beauty spot.' },
+  { name: 'Jessica T.', rating: 5, text: 'I got the care kit and i loved it. It has lasted more than 6 months for me and the quality was top notch.' },
   { name: 'Amanda K.', rating: 5, text: 'Love the elegant vibe of the salon. The henna artist is incredibly talented, my design was stunning!' },
   { name: 'Chloe B.', rating: 5, text: 'Affordable prices and top-notch service. The eyebrow tinting made such a difference. Will definitely be back!' },
   { name: 'Olivia H.', rating: 5, text: 'Found this gem through a friend and now I come here for everything; brows, lashes, facials. Simply the best in Hereford!' },

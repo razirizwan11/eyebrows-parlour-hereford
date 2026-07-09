@@ -2,18 +2,18 @@ import React, { useState } from 'react'
 import { Scissors, ChevronRight, Clock } from 'lucide-react'
 
 const servicesData = [
-  { name: 'Eyebrow Threading', price: '£8', icon: '✨', category: 'Brows', description: 'Precision eyebrow shaping using traditional threading techniques for the perfect arch.' },
-  { name: 'Eyebrow Tinting', price: '£10', icon: '🎨', category: 'Brows', description: 'Enhance your natural brows with our professional tinting service for a fuller look.' },
-  { name: 'Lash Lift', price: '£35', icon: '👁️', category: 'Lashes', description: 'Lift and curl your natural lashes for a wide-eyed, mascara-free look that lasts weeks.' },
-  { name: 'Lash Tinting', price: '£10', icon: '💫', category: 'Lashes', description: 'Darken and define your lashes for a bold, effortless appearance.' },
-  { name: 'Face Threading', price: '£25', icon: '✨', category: 'Face', description: 'Gentle facial hair removal using fine threading for smooth, flawless skin.' },
-  { name: 'Eyelash Extensions', price: '£45', icon: '👁️', category: 'Lashes', description: 'Custom lash extensions for volume, length, and drama tailored to your style.' },
-  { name: 'Facials', price: '£50', icon: '💆', category: 'Skincare', description: 'Rejuvenating facial treatments to cleanse, hydrate, and revitalize your skin.' },
-  { name: 'Makeup', price: 'Starting Soon', icon: '💄', category: 'Makeup', description: 'Professional makeup services coming soon — stay tuned for the big reveal!' },
-  { name: 'Haircut & Styling', price: '£35', icon: '💇', category: 'Hair', description: 'Trendy cuts and styling to frame your face and express your personality.' },
-  { name: 'Henna', price: '£10', icon: '🌿', category: 'Art', description: 'Beautiful, intricate henna designs for any occasion.' },
-  { name: 'Upper Lip Threading', price: '£6', icon: '✨', category: 'Face', description: 'Quick and precise upper lip hair removal for a clean finish.' },
-  { name: 'Waxing', price: '£6', icon: '✨', category: 'Body', description: 'Smooth, long-lasting hair removal with our gentle waxing services.' },
+  { name: 'Eyebrow Threading', icon: '✨', category: 'Brows', description: 'Precision eyebrow shaping using traditional threading techniques for the perfect arch.' },
+  { name: 'Eyebrow Tinting', icon: '🎨', category: 'Brows', description: 'Enhance your natural brows with our professional tinting service for a fuller look.' },
+  { name: 'Lash Lift', icon: '👁️', category: 'Lashes', description: 'Lift and curl your natural lashes for a wide-eyed, mascara-free look that lasts weeks.' },
+  { name: 'Lash Tinting', icon: '💫', category: 'Lashes', description: 'Darken and define your lashes for a bold, effortless appearance.' },
+  { name: 'Face Threading', icon: '✨', category: 'Face', description: 'Gentle facial hair removal using fine threading for smooth, flawless skin.' },
+  { name: 'Eyelash Extensions', icon: '👁️', category: 'Lashes', description: 'Custom lash extensions for volume, length, and drama tailored to your style.' },
+  { name: 'Facials', icon: '💆', category: 'Skincare', description: 'Rejuvenating facial treatments to cleanse, hydrate, and revitalize your skin.' },
+  { name: 'Makeup', icon: '💄', category: 'Makeup', description: 'Professional makeup for every occasion and beautiful bridal looks!' },
+  { name: 'Haircut & Styling', icon: '💇', category: 'Hair', description: 'Trendy cuts and styling to frame your face and express your personality.' },
+  { name: 'Henna', icon: '🌿', category: 'Art', description: 'Beautiful, intricate henna designs for any occasion.' },
+  { name: 'Upper Lip Threading', icon: '✨', category: 'Face', description: 'Quick and precise upper lip hair removal for a clean finish.' },
+  { name: 'Waxing', icon: '✨', category: 'Body', description: 'Smooth, long-lasting hair removal with our gentle waxing services.' },
 ]
 
 const Services = () => {
@@ -26,6 +26,16 @@ const Services = () => {
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-brand-100 rounded-full blur-3xl opacity-40 translate-y-1/2 -translate-x-1/2" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+  {/* Luxury Product Launch Banner */}
+<div className="bg-white border-2 border-red-500 rounded-2xl py-5 px-8 mb-12 shadow-lg">
+  <p className="text-center text-red-600 font-bold text-xl tracking-wide leading-relaxed">
+    ✨ Branded Luxury's exclusive products are launching soon.
+    <br />
+    <span className="text-lg font-semibold">
+      Once you experience them, you won't want anything else.
+    </span>
+  </p>
+</div>
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 bg-brand-100 rounded-full px-5 py-2.5 mb-8">
             <Scissors className="w-4 h-4 text-brand-600" />
